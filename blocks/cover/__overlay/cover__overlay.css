@@ -1,18 +1,24 @@
 .cover__overlay{
-	color: #fff;
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
-	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	text-align: center;
 	justify-content: center;
-	background-color: rgba(42, 44, 47,0.3);
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
 }
 
-.cover__overlay:hover{
-	background-color: rgba(42, 44, 47,0.8);
-	transition: .5s linear;
+.cover__overlay:before{
+	content: "";
+	background-color: #2A2C2F;
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.cover__overlay:hover::before{
+	opacity: 0.7;
+	transition: .8s ease;
 }

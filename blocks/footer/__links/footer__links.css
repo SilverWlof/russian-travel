@@ -9,10 +9,11 @@
 	display: flex;
 	margin: 0;
 }
+
 @media screen and (max-width:767px){
 	.footer__links{
-		font-size: 16px;
-		line-height: 112%;
+		font-size: 24px;
+		line-height: 24px;
 		flex-direction: column;
 	}
 }

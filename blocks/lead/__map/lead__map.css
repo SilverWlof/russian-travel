@@ -1,4 +1,18 @@
 .lead__map{
 	text-align: left;
-	margin: 0;
+	margin: 0 0 0 100px;
+}
+
+
+
+@media screen and (max-width:1279px){
+	.lead__map{
+		margin: 0 48px 0;
+	}
+}
+
+@media screen and (max-width:767px){
+	.lead__map{
+			margin: 0;
+		}
 }
