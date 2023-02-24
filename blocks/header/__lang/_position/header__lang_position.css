@@ -1,0 +1,7 @@
+.header__lang_position{
+	display: flex;
+}
+
+.header__lang_position:first-child {
+	margin-right: 18px;
+}

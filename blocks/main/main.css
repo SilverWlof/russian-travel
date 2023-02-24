@@ -1,0 +1,23 @@
+@media screen and (min-width:1280px ){
+	.main{
+		margin: 56px 148px 0;
+	}
+}
+
+@media screen and (min-width:1024px ) and (max-width:1279px){
+	.main{
+		margin: 48px 48px 0;
+	}
+}
+
+@media screen and (min-width:768px ) and (max-width:1023px){
+	.main{
+		margin:48px 0 0;
+	}
+}
+
+@media screen and (max-width:767px){
+	.main{
+		margin: 48px 0 0;
+	}
+}

@@ -1,0 +1,18 @@
+.cover__link{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: rgba(42, 44, 47,0.3);
+}
+
+.cover__link:hover{
+	background-color: rgba(42, 44, 47,0.8);
+	transition: .5s linear;
+}

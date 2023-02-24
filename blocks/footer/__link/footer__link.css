@@ -1,0 +1,20 @@
+.footer__link{	
+	margin-right: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+
+@media screen and (max-width:767px){
+	.footer__link{
+		margin-bottom: 30px;
+	}
+}
+
+.footer__link:last-child{
+	margin: 0;
+}
+
+.footer__link:hover{
+	opacity: 0.8;
+	transition: .3s ease-in-out;
+}

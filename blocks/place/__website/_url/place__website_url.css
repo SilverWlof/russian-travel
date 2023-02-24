@@ -1,0 +1,23 @@
+.place__website_url:first-child{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 100%;
+	color: #aaa;
+	margin-bottom: 12px;
+}
+
+.place__website_url{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 122%;
+	color: #fff;
+}
+
+.place__website_url:hover:last-child{
+	opacity: 0.5;
+	transition: .3s ease-in-out;
+}
