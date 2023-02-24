@@ -1,0 +1,18 @@
+.footer__link-list{	
+	margin-right: 18px;
+}
+
+@media screen and (max-width:767px){
+	.footer__link-list{
+		margin-bottom: 32px;
+	}
+}
+
+.footer__link-list:last-child{
+	margin: 0;
+}
+
+.footer__link-list:hover{
+	opacity: 0.8;
+	transition: .3s ease-in-out;
+}

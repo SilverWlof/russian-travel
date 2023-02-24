@@ -1,0 +1,7 @@
+.header__lang_underline:hover{
+		text-decoration: underline;
+}
+
+.header__lang_underline:first-child {
+	margin-right: 18px;
+}
