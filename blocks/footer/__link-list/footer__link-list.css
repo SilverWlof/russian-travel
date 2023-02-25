@@ -11,8 +11,3 @@
 .footer__link-list:last-child{
 	margin: 0;
 }
-
-.footer__link-list:hover{
-	opacity: 0.8;
-	transition: .3s ease-in-out;
-}

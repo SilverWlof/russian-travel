@@ -2,3 +2,8 @@
 	text-decoration: none;
 	color: #fff;
 }
+
+.footer__link:hover{
+	opacity: 0.8;
+	transition: .3s ease-in-out;
+}

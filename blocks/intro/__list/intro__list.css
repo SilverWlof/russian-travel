@@ -1,5 +1,5 @@
 .intro__list{
-	font-family: 'Inter';
+	font-family: 'Inter', 'Arial';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 12px;
@@ -7,10 +7,4 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-}
-
-@media screen and (max-width:767px){
-	.intro__list{
-		line-height: 18px;
-	}
 }
