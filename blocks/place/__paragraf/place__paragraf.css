@@ -6,7 +6,7 @@
 	line-height: 162%;	
 	margin: 0;
 }
-.place__paragraf:nth-child(2){
+.place__paragraf:last-child{
 	margin-top: 25px;
 }
 
